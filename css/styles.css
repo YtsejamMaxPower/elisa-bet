@@ -28,7 +28,7 @@ body {
 }
 
 button {
-    font-size: 18px; /* Ajusta o tamanho da fonte para ser igual ao texto Créditos */
+    font-size: 16px; /* Ajusta o tamanho da fonte para ser levemente menor que o texto Créditos */
     padding: 10px 20px; /* Aumenta o preenchimento interno do botão */
     margin-top: 20px; /* Mantém o espaço acima do botão */
 }
@@ -36,5 +36,6 @@ button {
 #result {
     color: red;
     font-weight: bold;
+    font-size: 20px; /* Aumenta o tamanho das letras para a mensagem de ganho ou perda */
     margin-top: 40px; /* Aumenta o espaço entre o botão e a frase de resultado */
 }
