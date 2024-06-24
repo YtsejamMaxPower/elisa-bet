@@ -24,7 +24,9 @@ body {
 }
 
 button {
-    margin-top: 20px; /* Aumenta o espaço acima do botão */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    padding: 10px 20px; /* Aumenta o preenchimento interno do botão */
+    margin-top: 20px; /* Mantém o espaço acima do botão */
 }
 
 #result {
