@@ -53,10 +53,10 @@ document.addEventListener("DOMContentLoaded", function() {
         balance += winnings;
 
         if (winnings > 0) {
-            document.getElementById('result').innerText = `VOCÊ GANHOU R$ ${winnings}!!!`;
+            document.getElementById('result').innerText = `FEITO!!!! VOCÊ GANHOU R$ ${winnings}!!!`;
             winSound.play();
         } else {
-            document.getElementById('result').innerText = "Não ganhou";
+            document.getElementById('result').innerText = "na próxima...";
         }
         
         document.getElementById('balance').innerText = `Créditos: R$ ${balance}`;
