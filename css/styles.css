@@ -23,8 +23,12 @@ body {
     border: 10px solid red !important; /* Aumenta o tamanho das bordas vermelhas */
 }
 
+#balance {
+    font-size: 18px; /* Define o tamanho da fonte para o texto Créditos */
+}
+
 button {
-    font-size: 18px; /* Aumenta o tamanho da fonte */
+    font-size: 18px; /* Ajusta o tamanho da fonte para ser igual ao texto Créditos */
     padding: 10px 20px; /* Aumenta o preenchimento interno do botão */
     margin-top: 20px; /* Mantém o espaço acima do botão */
 }
