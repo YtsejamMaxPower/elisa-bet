@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black; /* Define o fundo como preto */
+    color: white; /* Define a cor do texto como branco */
+}
+
+#slot-machine {
+    display: grid;
+    grid-template-columns: repeat(3, 110px); /* Ajusta para acomodar bordas maiores */
+    grid-gap: 0; /* Reduz o espaço entre as figuras */
+    justify-content: center;
+}
+
+.reel {
+    width: 100px;
+    height: 100px;
+    border: 10px solid black; /* Aumenta o tamanho das bordas pretas */
+    background-color: white;
+}
+
+.win {
+    border: 10px solid red !important; /* Aumenta o tamanho das bordas vermelhas */
+}
+
+#result {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
