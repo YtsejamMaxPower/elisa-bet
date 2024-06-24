@@ -1,27 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elisa-Bet</title>
+    <title>Elisa-Bet - Slot Machine Online</title>
+    
+    <!-- Meta Tags para SEO -->
+    <meta name="description" content="Jogue Elisa-Bet, a melhor slot machine online. Teste sua sorte e ganhe prêmios incríveis!">
+    <meta name="keywords" content="slot machine, Elisa-Bet, jogo online, apostas, diversão, prêmios">
+    <meta name="author" content="Seu Nome">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Meta Tags para Redes Sociais -->
+    <meta property="og:title" content="Elisa-Bet - Slot Machine Online">
+    <meta property="og:description" content="Jogue Elisa-Bet, a melhor slot machine online. Teste sua sorte e ganhe prêmios incríveis!">
+    <meta property="og:image" content="URL_da_imagem_para_rede_social">
+    <meta property="og:url" content="URL_da_página">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Elisa-Bet - Slot Machine Online">
+    <meta name="twitter:description" content="Jogue Elisa-Bet, a melhor slot machine online. Teste sua sorte e ganhe prêmios incríveis!">
+    <meta name="twitter:image" content="URL_da_imagem_para_rede_social">
+    
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Elisa-Bet</h1>
-    <div id="balance">Créditos: R$ 1000</div>
-    <div id="slot-machine">
-        <img class="reel" src="images/symbol1.png">
-        <img class="reel" src="images/symbol1.png">
-        <img class="reel" src="images/symbol1.png">
-        <img class="reel" src="images/symbol1.png">
-        <img class="reel" src="images/symbol1.png">
-        <img class="reel" src="images/symbol1.png">
-        <img class="reel" src="images/symbol1.png">
-        <img class="reel" src="images/symbol1.png">
-        <img class="reel" src="images/symbol1.png">
-    </div>
-    <button onclick="play()">Jogar R$50</button>
-    <div id="result"></div>
+    <header>
+        <h1>Elisa-Bet</h1>
+    </header>
+    
+    <main>
+        <div id="balance">Créditos: R$ 1000</div>
+        <div id="slot-machine">
+            <img class="reel" src="images/symbol1.png" alt="Símbolo 1">
+            <img class="reel" src="images/symbol1.png" alt="Símbolo 1">
+            <img class="reel" src="images/symbol1.png" alt="Símbolo 1">
+            <img class="reel" src="images/symbol1.png" alt="Símbolo 1">
+            <img class="reel" src="images/symbol1.png" alt="Símbolo 1">
+            <img class="reel" src="images/symbol1.png" alt="Símbolo 1">
+            <img class="reel" src="images/symbol1.png" alt="Símbolo 1">
+            <img class="reel" src="images/symbol1.png" alt="Símbolo 1">
+            <img class="reel" src="images/symbol1.png" alt="Símbolo 1">
+        </div>
+        <button onclick="play()">Jogar R$50</button>
+        <div id="result"></div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Elisa-Bet. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="/termos-de-uso">Termos de Uso</a></li>
+                <li><a href="/politica-de-privacidade">Política de Privacidade</a></li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+
     <audio id="spin-sound" src="sounds/spin.wav"></audio>
     <audio id="win-sound" src="sounds/win.wav"></audio>
     <script src="js/script.js"></script>
