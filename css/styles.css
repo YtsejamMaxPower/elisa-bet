@@ -23,8 +23,12 @@ body {
     border: 10px solid red !important; /* Aumenta o tamanho das bordas vermelhas */
 }
 
+button {
+    margin-top: 20px; /* Aumenta o espaço acima do botão */
+}
+
 #result {
     color: red;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 40px; /* Aumenta o espaço entre o botão e a frase de resultado */
 }
